@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4059406588831157456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4059406588831157422}
+  - component: {fileID: 4059406588831157457}
+  m_Layer: 0
+  m_Name: Date
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4059406588831157422
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4059406588831157456}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.7668915, y: 3.828003, z: 29.8032}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4059406588831157457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4059406588831157456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97f7f6de8bb8324f96ea3e4d73a21dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _worldData:
+    storeDates:
+    - name: World
+      worldId: 0
+      isUnlock: 1
+      clickerData:
+      - name: 
+        clickerId: 0
+        currentLevel: 0
+        cost: 50
+        isUnlock: 0
+        scoreAdd: 10
+      - name: 
+        clickerId: 1
+        currentLevel: 0
+        cost: 500
+        isUnlock: 0
+        scoreAdd: 50
+      - name: 
+        clickerId: 2
+        currentLevel: 0
+        cost: 1000
+        isUnlock: 0
+        scoreAdd: 50
+      - name: 
+        clickerId: 3
+        currentLevel: 0
+        cost: 5000
+        isUnlock: 0
+        scoreAdd: 1000
+    - name: World
+      worldId: 1
+      isUnlock: 0
+      clickerData:
+      - name: 
+        clickerId: 0
+        currentLevel: 1
+        cost: 500
+        isUnlock: 0
+        scoreAdd: 25
+      - name: 
+        clickerId: 1
+        currentLevel: 0
+        cost: 2500
+        isUnlock: 0
+        scoreAdd: 150
+      - name: 
+        clickerId: 2
+        currentLevel: 0
+        cost: 5000
+        isUnlock: 0
+        scoreAdd: 250
+      - name: 
+        clickerId: 3
+        currentLevel: 0
+        cost: 10000
+        isUnlock: 0
+        scoreAdd: 2500
+    - name: World
+      worldId: 2
+      isUnlock: 0
+      clickerData:
+      - name: 
+        clickerId: 0
+        currentLevel: 1
+        cost: 1000
+        isUnlock: 0
+        scoreAdd: 50
+      - name: 
+        clickerId: 1
+        currentLevel: 0
+        cost: 5000
+        isUnlock: 0
+        scoreAdd: 150
+      - name: 
+        clickerId: 1
+        currentLevel: 0
+        cost: 10000
+        isUnlock: 0
+        scoreAdd: 4000
+      - name: 
+        clickerId: 1
+        currentLevel: 0
+        cost: 20000
+        isUnlock: 0
+        scoreAdd: 8000
+    - name: World
+      worldId: 3
+      isUnlock: 0
+      clickerData:
+      - name: 
+        clickerId: 0
+        currentLevel: 1
+        cost: 2500
+        isUnlock: 0
+        scoreAdd: 100
+      - name: 
+        clickerId: 1
+        currentLevel: 0
+        cost: 10000
+        isUnlock: 0
+        scoreAdd: 1500
+      - name: 
+        clickerId: 1
+        currentLevel: 3
+        cost: 20000
+        isUnlock: 0
+        scoreAdd: 8200
+      - name: 
+        clickerId: 1
+        currentLevel: 3
+        cost: 50000
+        isUnlock: 0
+        scoreAdd: 15000
